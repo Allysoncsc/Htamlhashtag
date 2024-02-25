@@ -1,0 +1,19 @@
+ctrl+shit+p  =  abre atalhos
+
+alt+shift+z  =  colocar o texto selecionado em alguma tag
+
+
+
+***
+segurar alt e clicar em várias linhas fica um cursor em cada
+
+
+
+
+
+
+
+
+
+
+

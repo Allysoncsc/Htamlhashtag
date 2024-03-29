@@ -1,16 +1,20 @@
+
+modulo 3 aula 6 hiperlinks
 ctrl+shit+p  =  abre atalhos
 
-alt+shift+z  =  colocar o texto selecionado em alguma tag
+emment wrap with abreviation
+alt+shift+q  =  colocar o texto selecionado em alguma tag
 
-
+ctrl + ; = CRIAR ATALHOS
 
 ***
 segurar alt e clicar em várias linhas fica um cursor em cada
 
 
 
-
-
+morty ep8temp1
+Não fuja, ninguém existe com um propósito, ninguém pertence
+ e nenhum lugar e todo mundo vai morrer
 
 
 

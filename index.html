@@ -1,12 +1,75 @@
-<!DOCTYPE html>
+d\<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Carrega o React, React Dom e Babel -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- Don't use this in production: -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
   </head>
   <body>
-    <h1>olá Mundo</h1>
-    <p></p>
+    <div id="app">App</div>
+    
+    <script type="text/babel">
+
+      function Button(){
+        const [total,setTotal] = React.useState(0);
+        return <button onClick={() => setTotal(total+1)}>Adicionar {total}</button>
+      }
+      
+
+      const teste = () =>{
+        return <div>Teste</div>;
+      }
+
+      const MainNav = () => {
+        return <nav>
+            <ul>
+              <li><a href='#'>Link</a></li>
+            </ul>
+          </nav>
+      }
+
+      const Produtos = () =>{
+        const produto1 = "Camisa";
+
+      function handleClick(event){
+          console.log("comprou: "+event.target.innerText);
+      }
+        return <div>
+          <button  onClick={handleCLick}>{produto1}</button>
+          </div>
+
+      }
+
+      //hooks funções do react que dão algumas funcionalidades a mais
+
+      const Comprar = () =>{
+        const [count, setCount] = React.useState(0);
+
+        function handleCLick(){
+          setCount(count + 1);
+        }
+
+        return <div>
+          <button onClick={handleCLick}>Comprar: {count}</button>
+          <p>Total: {count}</p>
+          <p>Preço: {count * 250}</p>
+          </div>
+      }
+    const App = () => {
+        return <div>
+          
+          <Comprar />
+          
+          </div>
+      }
+      ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
   </body>
 </html>

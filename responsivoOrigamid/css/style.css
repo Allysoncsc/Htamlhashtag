@@ -1,0 +1,40 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.central{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* repeat(auto-fit,300px) se tiver 300px ele cria uma nova coluna*/
+    /* grid-template-columns: repeat(auto-fit, minmax(400px,1fr)); */
+    gap: 2em;
+}
+
+.central h1 {
+    /* o h1 vai pegar toda a primeira linha */
+    grid-column:  1/-1;
+}
+
+/* quando ficar abaixo de 600px */
+@media(max-width:600px){
+    .central{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Acima de 1000px */
+@media(min-width: 1000px) {
+
+}
+
+@media(min-width: 700px) and (max-width:900px){
+
+}
+
+/* só na tela */
+@media screen {
+    
+}
+/* só na impressão */
+@media print{}

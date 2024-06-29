@@ -1,0 +1,103 @@
+
+@media (prefers-color-scheme: light) {
+    
+
+    :root{
+        --roxo: #84e;
+        --borda: 4px solid blue;
+        --fonte-grande: 3rem;
+        --fundo: #fff;
+        --textp-1: #111;
+        --texto-2: #444;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --roxo: #84e;
+        --borda: 4px solid blue;
+        --fonte-grande: 3rem;
+        --fundo: #222;
+        --textp-1: #eee;
+        --texto-2: #bbb;
+    }
+}
+
+body{
+    font-size: 1.2rem;
+}
+label{
+    display: block;
+}
+
+input{
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button{
+    display: block;
+    margin-top: 30px;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    color: #217;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox,
+.radio{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.checkbox label,
+.radio label{
+    margin: 0px;
+    display: inline-block;
+}
+
+.checkbox input,
+.radio label{
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+textarea{
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+/* PEGAR TODOS OS ELEMENTOS QUE TENHAM  CERTO ATRIBUTO É SÓ COLOCA RNO COCHETE */
+[required]{
+    border: 3px solid tomato;
+}
+
+/* COMEÇAR COM */
+[href^="#"]{
+
+}
+/* terminar com */
+[href$=".com"]{
+
+}
+
+article p:last-child{
+    margin-bottom: 0px;
+}
+
+h1{
+    color: var(--roxo);
+    font-size: var(--fonte-grande);
+}
+
+p{
+    font-size: calc(var(--fonte-grande)/2);
+}

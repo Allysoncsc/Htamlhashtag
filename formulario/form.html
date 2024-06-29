@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Formulário teste</h1>
+    <form action="./" method="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <label for="cpf">CPF</label>
+        <input type="cpf" id="email" placeholder="000.000.000-00">
+        <label for="nascimento">Nascimento</label>
+        <input type="date" id="nascimento">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha">
+
+        <div class="radio">
+            <input type="radio" name="sexo" id="mas"><label for="mas">Masculino</label>
+            <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="termos" value="aceito" id="termos">
+            <label for="termos">Aceitar Termos</label>
+        </div>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+            <option value="CE">Ceará</option>
+            <option value="PE">Pernambuco</option>
+            <option value="BA">Bahia</option>
+            <option value="RN">Rio Grande do Norte</option>
+        </select>
+
+        <label for="mensagem"></label>
+        <textarea name="mensagem" id="mensagem" rows="5" disabled></textarea>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+ul,
+p {
+  margin: 0px;
+}
+ul{
+   
+    padding: 0px;
+    list-style: none;
+}
+.header-bg{
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    /* hera a cor da div pai */
+    color: inherit;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }

@@ -3,6 +3,11 @@
 @import "./cssParticionado/introducao.css";
 @import "./cssParticionado/componentes.css";
 @import "./cssParticionado/tipografia.css";
+@import "./cssParticionado/cores.css";
+@import "./cssParticionado/tecnologia.css";
+
+@import "./cssParticionado/bicicletas-lista.css";
+
 
 
   

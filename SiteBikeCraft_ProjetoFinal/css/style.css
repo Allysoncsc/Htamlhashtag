@@ -5,6 +5,8 @@
 @import "./cssParticionado/tipografia.css";
 @import "./cssParticionado/cores.css";
 @import "./cssParticionado/tecnologia.css";
+@import "./cssParticionado/parceiros.css";
+@import "./cssParticionado/depoimento.css";
 
 @import "./cssParticionado/bicicletas-lista.css";
 

@@ -7,7 +7,7 @@
   margin-right: auto;
 }
 
-.btn {
+.botao {
     display: inline-block;
     padding: 16px 32px;
     background: linear-gradient(#ffbf00, #f2a50c);
@@ -20,13 +20,22 @@
     font-weight: bold;
     font-family: "Poppins";
     font-weight: 600;
+    max-width: max-content;
   }
 
-  .btn:hover {
+  .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
   }
 
+  .botao.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+  }
 
+  .botao.secundario:hover{
+    background: var(--cor-9);
+    
+  }
   .link{
     display: inline-block;
     color: var(--cor-p1);

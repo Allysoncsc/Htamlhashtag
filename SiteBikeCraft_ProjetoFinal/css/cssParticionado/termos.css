@@ -1,0 +1,58 @@
+.termos{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.termos h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.termos p{
+    margin-bottom: 24px;
+    max-width: 75ch;
+}
+
+/* todo os h2 que vem após um p */
+.termos p + h2{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

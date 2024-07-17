@@ -10,6 +10,8 @@
 @import "./cssParticionado/seguros.css";
 @import "./cssParticionado/footer.css";
 @import "./cssParticionado/termos.css";
+@import "./cssParticionado/perguntas.css";
+@import "./cssParticionado/vantagens.css";
 
 @import "./cssParticionado/bicicletas-lista.css";
 @import "./cssParticionado/bicicletas.css";
